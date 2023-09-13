@@ -70,7 +70,7 @@ async function createGif(name) {
   return new Promise((resolve) => {
     const encoder = new GIFEncoder(width, height);
     const stream = pngFileStream("cards/**.png")
-      .pipe(encoder.createWriteStream({ repeat: -1, delay: 100, quality: 10 }))
+      .pipe(encoder.createWriteStream({ repeat: 0, delay: 100, quality: 10 }))
       .pipe(fs.createWriteStream("./gif/" + name + ".gif"));
 
     stream.on("finish", () => {
