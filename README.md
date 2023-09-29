@@ -1,8 +1,6 @@
 # Cards
 
-https://ipfs.io/ipfs/bafybeiasmykcoebpnrhuuminmczqlvqeimuxtfwyuku2bh2mzi75satrgy/99.png
-
-https://ipfs.io/ipfs/bafybeiazjjtzjyvbrif6sgvzmuakhhnpo6jyrxfasaf36queafcvd4xqhq/99.gif
+https://ipfs.io/ipfs/bafybeihl2wdf75n2ga3pkatl3pl7a4iqgbfqgpcdzd3iu2fauue33co6ni/
 
 ## Generate
 
