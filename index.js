@@ -1,6 +1,6 @@
 const fs = require("fs");
 const svg2img = require("svg2img");
-const cards = require("./cards");
+const cards = require("./cards.json");
 const GIFEncoder = require("gifencoder");
 const pngFileStream = require("png-file-stream");
 
@@ -27,8 +27,8 @@ const height = 1400;
     createPng(getSvg(card, 0.15), "P");
     createPng(getSvg(card, 0.1), "Q");
     await createGif(card);
-    fs.readdirSync("./cards").forEach((file) => {
-      fs.unlinkSync(`./cards/${file}`);
+    fs.readdirSync("./png").forEach((file) => {
+      fs.unlinkSync(`./png/${file}`);
     });
   }
 })();
